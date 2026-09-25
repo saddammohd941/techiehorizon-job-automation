@@ -6,7 +6,7 @@ from sqlalchemy import pool
 from alembic import context
 
 from app.database.connection import Base
-
+from app.models import Student
 
 config = context.config
 
